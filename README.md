@@ -16,8 +16,8 @@ Another option is to change the default values in the script and run it without 
 
 ### Installation in OPNSense for automatic updates
 - Override the default values defined in the `static_dhcp_to_dns.py` script with your DNS RNDC key.
-- Place the `static_dhcp_to_dns.py` script into `/usr/local/opnsense/scripts`
-- Place the `static_dhcp_to_dns_run.sh` script into `/usr/local/etc/rc.syshook.d/config` (config folder might have to be created)
+- Place the `static_dhcp_to_dns.py` file into `/usr/local/opnsense/scripts`
+- Place the `static_dhcp_to_dns_run.sh` file into `/usr/local/etc/rc.syshook.d/config` (config folder might have to be created)
 - Set the executable flag (chmod +x) on `static_dhcp_to_dns_run.sh`
 - Add or remove a static lease in the OPNSense DHCP interface to trigger an update
 
