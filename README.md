@@ -1,7 +1,7 @@
 # Static DHCP Leases to DNS over RNDC in OPNSense
 
 ## About
-This script has been created to synchronise `STATIC` DHCP leases in OPNSense to a Dynamic DNS server over RNDC.  
+This script has been created to synchronise `static` DHCP leases in OPNSense to a Dynamic DNS server over RNDC.  
 Use it at your own risk.
 
 ## Requirements
