@@ -15,7 +15,7 @@ It can be run from shell with the command `python3 static_dhcp_to_dns.py`. Use t
 Another option is to change the default values in the script and run it without parameters.
 
 ### Installation in OPNSense for automatic updates
-- Override the default values within the `static_dhcp_to_dns.py` script with your DNS RNDC key.
+- Override the default values defined in the `static_dhcp_to_dns.py` script with your DNS RNDC key.
 - Place the `static_dhcp_to_dns.py` script into `/usr/local/opnsense/scripts`
 - Place the `static_dhcp_to_dns_run.sh` script into `/usr/local/etc/rc.syshook.d/config` (config folder might have to be created)
 - Set the executable flag (chmod +x) on `static_dhcp_to_dns_run.sh`
